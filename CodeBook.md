@@ -21,12 +21,12 @@ and the means summary.
 30 volunteers between the ages of 19-48 were apportioned to two groups: one
 for the test data (9 subjects) and one for the training data (21 subjects).
 Each person performed six activities:
-1. walking (defined by factor level "walking")
-2. walking upstairs (defined by factor level "upstairs")
-3. walking downstairs (defined by factor level "walking downstairs")
-4. sitting (defined by factor level "sitting")
-5. standing (defined by factor level "standing")
-6. laying (defined by factor level "laying")
+* walking (defined by factor level "walking")
+* walking upstairs (defined by factor level "upstairs")
+* walking downstairs (defined by factor level "walking downstairs")
+* sitting (defined by factor level "sitting")
+* standing (defined by factor level "standing")
+* laying (defined by factor level "laying")
 
 ##Explanation of data
 The Galaxy S II smartphone used in the study contained an embedded
@@ -37,9 +37,12 @@ standard deviation calculated along with each mean.  Data was cleaned
 and manipulated as above to provide summary statistics.
 
 ##Variables
-###subject: data from an individual volunteer
-###activity: class of activity performed by subject
-###treatment: group assigned to subject
+###subject
+Data from an individual volunteer
+###activity
+Class of activity performed by subject
+###treatment
+Group assigned to subject
 
 ###tBodyAcc.mean_(X, Y, Z)
 Means of time-domain signals due to body acceleration in X, Y, and Z axes
