@@ -57,5 +57,5 @@ run_analysis <- function() {
   ## clean final 8 columns of duplicate "Body" term
   names(testtrainsummary)[74:82] <- sub("Body", "", names(testtrainsummary[,74:82]))
   ## final output
-  write.table(testtrainsummary, "means_summary.txt", col.names = TRUE)
+  write.table(testtrainsummary, "means_summary.txt", col.names = TRUE, row.name = FALSE)
 }
